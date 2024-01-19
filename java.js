@@ -2,15 +2,11 @@
 // Date: 1/13/2024
 
 
-number = 5;
+var number = 7;
 
-
-newnumber = number * 2;
-
-
-food = prompt("What is your favorite food?");
-
-
-console.log(number);
-console.log(newnumber);
-console.log("Your favorite food is: " + food);
+for (var i = 1; i <= 5; i++) {
+    if (number % 2 !== 0) {
+        console.log(number);
+    }
+    number++;
+}
