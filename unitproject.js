@@ -17,6 +17,6 @@ const updatePageContent = (day) => {
   //Loop to change background color
   for (let i = 0; i < 5; i++) {
     setTimeout(() => {
-      document.body.style.backgroundColor = i % 2 === 0 ? 'blue' : 'red';
+      document.body.style.backgroundColor = i % 2 === 0 ? 'blue' : 'green';
     }, i * 1000);
   }
