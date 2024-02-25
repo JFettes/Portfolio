@@ -1,0 +1,13 @@
+
+class Custom {
+    constructor() {
+      this.name = "2/22/24";
+    }
+  
+    logName() {
+      console.log(`Date Created: ${this.name}`);
+    }
+  }
+  
+  const fixed = new Custom();
+  fixed.logName();
