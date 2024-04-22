@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Josh Fettes Portfolio</title>
+    <link href="Portfolio_styles.css" rel="stylesheet" />
+    <script src="algorithims.js" defer></script>
+
+</head>
+<body>
+    <h1>Depth Search Results:</h1>
+    <ul id="depthResults"></ul>
+    
+    <h1>Breadth Search Results:</h1>
+    <ul id="breadthResults"></ul>
+  
+    <script src="algorithims.js"></script>
+    <script>
+      const depthResults = document.getElementById('depthResults');
+      const breadthResults = document.getElementById('breadthResults');
+  
+      depth.forEach(data => {
+        const li = document.createElement('li');
+        li.textContent = data;
+        depthResults.appendChild(li);
+      });
+  
+      breadth.forEach(data => {
+        const li = document.createElement('li');
+        li.textContent = data;
+        breadthResults.appendChild(li);
+      });
+    </script>
+  </body>
+  </html>
