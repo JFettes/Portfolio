@@ -8,17 +8,16 @@
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
 
     </head>
-      <body>
-        <a-scene>
-            <a-assets>
-                <a-asset-item id="object" src="BoostSolenoid.obj"></a-asset-item>
-                <a-asset-item id="material" src="BoostSolenoid.mtl"></a-asset-item>
-              </a-assets>
-            
-              <a-obj-model src="object" mtl="material"></a-obj-model>
-
-              <a-entity camera look-controls wasd-controls="acceleration:100" position="0 1.6 0"></a-entity>
-          </a-scene>
-      </body>
+    <body>
+      <a-scene>
+        <a-cylinder position="1 1 -4" color="red" height="3" radius="1.5"></a-cylinder>
+        <a-cylinder position="4 1 -8" color="blue" height="2" radius="1.5"></a-cylinder>
+        <a-cylinder position="7 1 -13" color="green" height="1" radius="1.5"></a-cylinder>
+        <a-sky color="#ECECEC"></a-sky>
+        <a-light color="white" position="-1 1 0"></a-light>
+        <a-text color="Black" value="Welcome to the A-Frame"></a-text>
+      </a-scene>
+      </a-scene>
+    </body>
 
 </html> 
