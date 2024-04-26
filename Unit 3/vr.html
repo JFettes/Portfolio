@@ -10,13 +10,13 @@
     </head>
       <body>
         <a-scene>
-            <a-entity camera look-controls wasd-controls="acceleration:100"></a-entity>
             <a-assets>
-                <a-asset-item id="Boost Solenoid-obj" src="Boost Solenoid.obj"></a-asset-item>
-                <a-asset-item id="Boost Solenoid-mtl" src="Boost Solenoid.mtl"></a-asset-item>
-            </a-assets>
-            <a-entity obj-model="obj: #Boost Solenoid-obj; mtl: #Boost Solenoid-mtl" position="0 1 0"></a-entity>
-        </a-scene>
+                <a-asset-item id="object" src="BoostSolenoid.obj"></a-asset-item>
+                <a-asset-item id="material" src="BoostSolenoid.mtl"></a-asset-item>
+              </a-assets>
+            
+              <a-obj-model src="object" mtl="material"></a-obj-model>
+          </a-scene>
       </body>
 
 </html> 
